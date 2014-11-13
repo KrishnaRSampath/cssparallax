@@ -1,5 +1,4 @@
 
-@import url(http://fonts.googleapis.com/css?family=Nunito);
 
 html {
   height: 100%;
@@ -65,7 +64,7 @@ img:last-of-type {
 
 .title {
   width: 50%;
-  padding: 5%;
+  padding: 2%;
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
@@ -98,18 +97,28 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("../img/echo_chamber.jpg");
+  background-image: url("../img/Krishna.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
+/*****************
+Echo Chamber Slide -- find a good place for this.
+#slide1:before {
+  background-image: url("../img/echo_chamber.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+******************/
+
+
 #slide2 {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");
+  background-image: url("../img/spring_cohort.jpg");
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");
+  background-image: url("../img/hall_of_moustaches.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
